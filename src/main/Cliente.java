@@ -8,7 +8,8 @@ public class Cliente {
 		this.nombre = nombre;
 	}
 	
-	public void solicitarEnvioFlores(String nomflore, String direccion) {
-		
+	public void solicitarEnvioFlores(String tipoFlor, String direccion) {
+		Florista pedro = new Florista("pedro");
+		pedro.gestionarEnvio(tipoFlor, direccion);
 	}
 }
