@@ -9,7 +9,7 @@ public class Direccion {
 	}
 	
 	public String getDireccion() {
-		return this.direccion;
+		return direccion;
 	}
 
 }

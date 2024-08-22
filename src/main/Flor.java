@@ -7,5 +7,9 @@ public class Flor {
 	public Flor(String tipoFlor) {
 		this.tipoFlor = tipoFlor;
 	}
+	
+	public String getFlores() {
+		return tipoFlor;
+	}
 
 }
